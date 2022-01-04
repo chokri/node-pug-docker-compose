@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:17-alpine
 RUN mkdir /src
 RUN npm install nodemon -g
 WORKDIR /src
